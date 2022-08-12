@@ -12,7 +12,8 @@ export const ProjectInfo = {
             mockupImage: allAboutDogsMockup,
             website: 'https://www.figma.com/proto/lS8gVVOen25qZpBdaf4WXp/All-About-Dogs?node-id=32%3A2&scaling=min-zoom&page-id=0%3A1',
             sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            technologies: 'PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
+            description:    'Website to help dog owners take care of their little friends. It contains information about different dog breeds and their characteristics. It is also a useful tool for those, who is going to buy a dog, but can\'t decide which breed suits best for their lifestyle and personality. There is also a blog, where dog experts can share useful recommendations and personal stories.'
         },
         {
             id: 2,
@@ -20,7 +21,8 @@ export const ProjectInfo = {
             mockupImage: onlineDictionaryMockup,
             website: 'https://online-dictionary.vercel.app/',
             sourceCode: 'https://github.com/elizzaveta/OnlineDictionary',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            technologies: 'React.js front-end application with CSS modules and use of Local Storage. Dictionary data is taken from public API',
+            description: 'A dictionary with English words\' meanings. Some words have player with its\' pronunciation. Search history is saved and can be edited.'
         },
         {
             id: 3,
@@ -28,7 +30,8 @@ export const ProjectInfo = {
             mockupImage: yourPlantMockup,
             website: 'https://elizzaveta.github.io/YourPlant-site/',
             sourceCode: 'https://github.com/elizzaveta/YourPlant-site',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            technologies: 'HTML + CSS web pages. Studying of adaptive design. Has 3 different layout realizations: desktop, tablet and mobile.',
+            description: 'Website idea is an online plant shop. Here you can find beautiful landing, product grid and detailed product page(hint: detailed page is for Calathea plant)'
         },
         {
             id: 4,
@@ -36,7 +39,8 @@ export const ProjectInfo = {
             mockupImage: myNotesMockup,
             website: 'https://elizzaveta.github.io/My_notes',
             sourceCode: 'https://github.com/elizzaveta/My_notes',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            technologies: 'HTML + CSS + JS simple web app using Local Storage.',
+            description: 'Simple note taking app.'
         },
         {
             id: 5,
@@ -44,7 +48,8 @@ export const ProjectInfo = {
             mockupImage: sushiSiteMockup,
             website: 'https://elizzaveta.github.io/Sushi-site/',
             sourceCode: 'https://github.com/elizzaveta/Sushi-site',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            technologies: 'HTML + CSS + JS app. Product information is fetched from JSON API (Typicode Json Server).',
+            description: 'Site where you can choose and order sushi.'
         }
     ]
 }

@@ -1,18 +1,26 @@
 import React from 'react';
-import {Button, ButtonGroup, Typography} from "@mui/material";
+import {Box, Button, ButtonGroup, Typography} from "@mui/material";
+import {MoveInLeft} from "../animations/ReactScrollMotion";
+import {Animator} from "react-scroll-motion";
 
 const ProjectDescription = (props) => {
     const {project} = props
     return (
-        <div style={{display:'flex', flexDirection:'column', gap:'50px'}}>
-            <Typography variant='h2'>{project.name}</Typography>
-            <Typography>{project.description}</Typography>
-            <ButtonGroup>
-                <Button color='secondary' variant="contained" href={project.website}>WebSite</Button>
-                <Button color='secondary' variant="outlined" href={project.sourceCode}>Source Code</Button>
-            </ButtonGroup>
-
-        </div>
+            <div style={{height: '400px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                <Typography variant='h2' sx={{fontWeight: 'bold'}}>{project.name}</Typography>
+                <Box>
+                    <Typography color='secondary.dark'>Technologies:</Typography>
+                    <Typography>{project.technologies}</Typography>
+                </Box>
+                <Box>
+                    <Typography color='secondary.dark'>WebSite Idea:</Typography>
+                    <Typography>{project.description}</Typography>
+                </Box>
+                <ButtonGroup>
+                    <Button color='secondary' variant="contained" href={project.website}>WebSite</Button>
+                    <Button color='secondary' variant="outlined" href={project.sourceCode}>Source Code</Button>
+                </ButtonGroup>
+            </div>
     );
 };
 
