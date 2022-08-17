@@ -17,8 +17,8 @@ const ProjectDescription = (props) => {
                     <Typography>{project.description}</Typography>
                 </Box>
                 <ButtonGroup>
-                    <Button color='secondary' variant="contained" href={project.website}>WebSite</Button>
-                    <Button color='secondary' variant="outlined" href={project.sourceCode}>Source Code</Button>
+                    <Button color='secondary' variant="contained" href={project.website} target="_blank">WebSite</Button>
+                    <Button color='secondary' variant="outlined" href={project.sourceCode} target="_blank">Source Code</Button>
                 </ButtonGroup>
             </div>
     );
