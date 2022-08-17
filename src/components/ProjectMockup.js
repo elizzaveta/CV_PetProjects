@@ -1,16 +1,24 @@
-import React from 'react';
-import {Card, CardMedia} from "@mui/material";
+import React, {useState} from 'react';
+import {Card, CardActionArea, CardMedia} from "@mui/material";
+import ATVParallax from '../my_modules/react-atv-parallax';
+import {Link} from "react-router-dom";
 
 const ProjectMockup = (props) => {
     const {image} = props
+
     return (
-        <Card >
-            <CardMedia
-                component="img"
-                height="400"
-                image= {image}
-            />
-        </Card>
+        <img style={{height:400, width:'100%'}}
+            src={image}
+            alt='project mockup'
+            href='https://github.com/elizzaveta'
+        />
+        // <ATVParallax style={{ height: 400}}>
+        //             <img
+        //                 src={image}
+        //                 alt='project mockup'
+        //                 href='https://github.com/elizzaveta'
+        //             />
+        // </ATVParallax>
     );
 };
 

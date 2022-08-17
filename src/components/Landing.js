@@ -20,16 +20,15 @@ const Landing = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <ScrollContainer>
+            <ScrollContainer >
                 <div style={{backgroundImage: `url(${BackgroundImage})`, height: 700}}>
                     <Container style={greetingContainerStyle}>
                         <Greeting/>
                     </Container>
                 </div>
-
-                {ProjectInfo.projects.map((project) =>
-                    <ProjectInfoTemplate project={project}/>
-                )}
+                    {ProjectInfo.projects.map((project) =>
+                        <ProjectInfoTemplate project={project}/>
+                    )}
             </ScrollContainer>
         </ThemeProvider>
     );
