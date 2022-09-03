@@ -3,9 +3,6 @@ import {Container, Grid, ThemeProvider} from "@mui/material";
 import {theme} from "../styles/Theme";
 import ProjectDescription from "./ProjectDescription";
 import ProjectMockup from "./ProjectMockup";
-import {Animator, ScrollPage} from "react-scroll-motion";
-import {FadeUp, MoveInLeft, myAnimation} from "../animations/ReactScrollMotion";
-import {Parallax} from "react-scroll-parallax";
 
 const ProjectInfoTemplate = (props) => {
     const {project} = props;

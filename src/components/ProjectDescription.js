@@ -1,7 +1,5 @@
 import React from 'react';
 import {Box, Button, ButtonGroup, Typography} from "@mui/material";
-import {MoveInLeft} from "../animations/ReactScrollMotion";
-import {Animator} from "react-scroll-motion";
 
 const ProjectDescription = (props) => {
     const {project} = props
