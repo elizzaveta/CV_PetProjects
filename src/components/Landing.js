@@ -20,7 +20,7 @@ const Landing = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <ScrollContainer >
+            <ScrollContainer>
                 <div style={{backgroundImage: `url(${BackgroundImage})`, height: 700}}>
                     <Container style={greetingContainerStyle}>
                         <Greeting/>

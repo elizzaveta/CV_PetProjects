@@ -8,16 +8,16 @@ const ProjectInfoTemplate = (props) => {
     const {project} = props;
     return (
         <ThemeProvider theme={theme}>
-            <Container>
+            <Container style={{height:window.innerHeight}}>
                 <Grid container spacing={{xs: 2, md: 6}} columns={{xs: 6, md: 12}} sx={{padding: {md: '90px 200px'}}}>
 
-                    <Grid item xs={6}>
+                    <Grid item xs={6} style={{display:"flex", alignItems:"center"}}>
                         {project.id % 2
                             ? <ProjectDescription project={project}/>
                             : <ProjectMockup image={project.mockupImage}/>
                         }
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={6} style={{display:"flex", alignItems:"center"}}>
                         {project.id % 2
                             ? <ProjectMockup image={project.mockupImage}/>
                             : <ProjectDescription project={project}/>

@@ -4,7 +4,7 @@ import {Box, Button, ButtonGroup, Typography} from "@mui/material";
 const ProjectDescription = (props) => {
     const {project} = props
     return (
-            <div style={{height: '400px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+            <div style={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-around'}}>
                 <Typography variant='h2' sx={{fontWeight: 'bold'}}>{project.name}</Typography>
                 <Box>
                     <Typography color='secondary.dark'>Technologies:</Typography>

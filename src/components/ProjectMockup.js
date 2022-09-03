@@ -4,7 +4,7 @@ const ProjectMockup = (props) => {
     const {image} = props
 
     return (
-        <img style={{height:400, width:'100%'}}
+        <img style={{height:'auto', width:'100%'}}
             src={image}
             alt='project mockup'
             href='https://github.com/elizzaveta'
