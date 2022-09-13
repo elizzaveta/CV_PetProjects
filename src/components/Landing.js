@@ -8,8 +8,6 @@ import {ScrollContainer} from "react-scroll-motion";
 
 
 const Landing = () => {
-
-
     return (
         <ThemeProvider theme={theme}>
             <ScrollContainer>

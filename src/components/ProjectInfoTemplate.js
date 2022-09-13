@@ -1,29 +1,43 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Grid, ThemeProvider} from "@mui/material";
 import {theme} from "../styles/Theme";
 import ProjectDescription from "./ProjectDescription";
 import ProjectMockup from "./ProjectMockup";
-import {Animator, ScrollPage} from "react-scroll-motion";
-import {FadeUp, MoveInLeft, myAnimation} from "../animations/ReactScrollMotion";
-import {Parallax} from "react-scroll-parallax";
 
 const ProjectInfoTemplate = (props) => {
     const {project} = props;
+    let descriptionBlock = <ProjectDescription project={project}/>
+    let mockupBlock = <ProjectMockup image={project.mockupImage}/>
+
+    const[blocksOrder, setBlocksOrder] = useState({
+        leftBlock: descriptionBlock,
+        rightBlock: mockupBlock
+    })
+    useEffect(() => {
+        if(project.id % 2 || window.innerWidth < 1280 ){
+            setBlocksOrder({
+                leftBlock: descriptionBlock,
+                rightBlock: mockupBlock
+            })
+        }else{
+            setBlocksOrder({
+                leftBlock: mockupBlock,
+                rightBlock: descriptionBlock
+            })
+        }
+    });
+
+
     return (
         <ThemeProvider theme={theme}>
             <Container>
-                <Grid container spacing={{xs: 2, md: 6}} columns={{sm: 6, md: 6, lg:12}} sx={{padding: {md: '90px 200px'}}}>
+                <Grid container spacing={{xs: 2, md: 6}} columns={{sm: 6, md: 6, lg: 12}}
+                      sx={{padding: {md: '90px 200px', xs: "50px 0"}}}>
                     <Grid item xs={6}>
-                        {project.id % 2
-                            ? <ProjectDescription project={project}/>
-                            : <ProjectMockup image={project.mockupImage}/>
-                        }
+                        {blocksOrder.leftBlock}
                     </Grid>
                     <Grid item xs={6}>
-                        {project.id % 2
-                            ? <ProjectMockup image={project.mockupImage}/>
-                            : <ProjectDescription project={project}/>
-                        }
+                        {blocksOrder.rightBlock}
                     </Grid>
                 </Grid>
             </Container>
