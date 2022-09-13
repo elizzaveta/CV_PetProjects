@@ -3,23 +3,29 @@ import {Animator, ScrollPage} from "react-scroll-motion";
 import {Box, ThemeProvider, Typography} from "@mui/material";
 import {theme} from "../styles/Theme";
 import {FadeUp} from "../animations/ReactScrollMotion";
+import {Container} from "@material-ui/core";
+import styles from "../styles/css/Greeting.module.css"
 
 const Greeting = () => {
     return (
-        <ScrollPage>
-            <Animator animation={FadeUp}>
-                <ThemeProvider theme={theme}>
-                    <Box>
-                        <Typography variant='h1' sx={{textAlign: 'center'}}>
-                            Hi, I'm Liza, Front-End Developer from Kyiv
-                        </Typography>
-                        <Typography variant='h2' sx={{textAlign: 'center'}}>
-                            Here you can find my pet projects
-                        </Typography>
-                    </Box>
-                </ThemeProvider>
-            </Animator>
-        </ScrollPage>
+        <ThemeProvider theme={theme}>
+            <div className={styles.wrapper}>
+                <ScrollPage>
+                    <Animator animation={FadeUp}>
+                        <Container>
+                            <Box>
+                                <Typography variant='h1' sx={{textAlign: 'center'}}>
+                                    Hi, I'm Liza, Front-End Developer from Kyiv
+                                </Typography>
+                                <Typography variant='h2' sx={{textAlign: 'center'}}>
+                                    Here you can find my pet projects
+                                </Typography>
+                            </Box>
+                        </Container>
+                    </Animator>
+                </ScrollPage>
+            </div>
+        </ThemeProvider>
 
     );
 };

@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../../images/vecteezy_abstract-purple-fluid-wave-background_.jpg") ;
+    height: 700px;
+    width: 100%
+}

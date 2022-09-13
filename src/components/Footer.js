@@ -1,11 +1,12 @@
 import React from 'react';
 import {Box, Container, ThemeProvider, Typography} from "@mui/material";
 import {theme} from "../styles/Theme";
+import styles from "../styles/css/Foooter.module.css"
 
 const Footer = () => {
     return (
         <ThemeProvider theme={theme}>
-            <footer style={{bottom: 0, left: 0, width: '100%', height: '100px', backgroundColor: '#f1f1f1'}}>
+            <footer>
                 <Container>
                     <Box sx={{
                         padding: '50px 0px 0px 0px',
