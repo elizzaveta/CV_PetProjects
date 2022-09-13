@@ -13,7 +13,7 @@ export const ProjectInfo = {
             mockupImage: seaCreaturesMockup,
             website: 'https://sea-creatures.vercel.app/',
             sourceCode: 'https://github.com/elizzaveta/SeaCreatures',
-            technologies: 'React.js web page with Parallax effects (with use of react-scroll-parallax library)',
+            technologies: '[responsive layout is still in progress(better view on a laptop)] React.js web page with Parallax effects (with use of react-scroll-parallax library)',
             description: 'Page with engaging parallax effects. It contains several blocks with animal picture and it`s description.'
         },
         {
