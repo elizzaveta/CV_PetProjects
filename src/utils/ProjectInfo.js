@@ -1,4 +1,5 @@
 import allAboutDogsMockup from '../images/All About Dogs Mockup.png'
+import boredMockup from '../images/Bored Mockup.png'
 import onlineDictionaryMockup from '../images/Online Dictionary Mockup.png'
 import myNotesMockup from '../images/My Notes Mockup.png'
 import yourPlantMockup from '../images/Your Plant Mockup.png'
@@ -27,6 +28,15 @@ export const ProjectInfo = {
         },
         {
             id: 3,
+            name: 'Bored',
+            mockupImage: boredMockup,
+            website: 'https://activity-gererator.vercel.app/',
+            sourceCode: 'https://github.com/elizzaveta/ActivityGererator',
+            technologies: 'Vue.js application with use of Local Storage. Data is taken from public API',
+            description: 'Website for those who are bored. Generates activities and allows to save favorite ones.'
+        },
+        {
+            id: 4,
             name: 'Online Dictionary',
             mockupImage: onlineDictionaryMockup,
             website: 'https://online-dictionary.vercel.app/',
@@ -35,7 +45,7 @@ export const ProjectInfo = {
             description: 'A dictionary with English words\' meanings. Some words have player with its\' pronunciation. Search history is saved and can be edited.'
         },
         {
-            id: 4,
+            id: 5,
             name: 'Your Plant',
             mockupImage: yourPlantMockup,
             website: 'https://elizzaveta.github.io/YourPlant-site/',
@@ -44,7 +54,7 @@ export const ProjectInfo = {
             description: 'Website idea is an online plant shop. Here you can find beautiful landing, product grid and detailed product page(hint: detailed page is for Calathea plant)'
         },
         {
-            id: 5,
+            id: 6,
             name: 'My Notes',
             mockupImage: myNotesMockup,
             website: 'https://elizzaveta.github.io/My_notes',
@@ -53,7 +63,7 @@ export const ProjectInfo = {
             description: 'Simple note taking app.'
         },
         {
-            id: 6,
+            id: 7,
             name: 'Sushi Site',
             mockupImage: sushiSiteMockup,
             website: 'https://elizzaveta.github.io/Sushi-site/',
