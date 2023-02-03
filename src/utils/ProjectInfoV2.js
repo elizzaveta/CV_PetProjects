@@ -35,7 +35,7 @@ export const ProjectInfoV2 = [
             {
                 name: 'YourPlant Design',
                 mockupImage: figmaMockup,
-                website: 'https://www.figma.com/proto/lS8gVVOen25qZpBdaf4WXp/All-About-Dogs?node-id=32%3A2&scaling=min-zoom&page-id=0%3A1',
+                website: 'https://www.figma.com/file/NZcndvjm33h9uVCbIl8Hf4/YourPlant?t=eloNvlwGmlccLckk-0',
                 description: 'Figma design of YourPlant site. Responsive layout (Desktop, tablet, mobile).'
                 , tags: ['Figma', 'Responsive layout']
             }
