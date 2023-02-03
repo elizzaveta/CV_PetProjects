@@ -1,0 +1,8 @@
+.wrapper{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.wrapper img{
+    height: 39px;
+}

@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+.itemWrapper{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     width: 300px;
+     padding: 15px;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+ }
+.itemWrapper:hover{
+    box-shadow: 1px 8px 6px rgba(0, 0, 0, 0.45);
+}
+.innerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.greenBorderContainer{
+    border: 1px solid green;
+    border-radius: 12px;
+}
+.descriptionContainer{
+    padding: 4px;
+}
+.tagsContainer{
+    display: flex;
+    gap: 5px;
+}
+.linksContainer{
+    display: flex;
+    gap: 5px;
+}
+.gap10px{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mockup{
+
+    width: 100%;
+}

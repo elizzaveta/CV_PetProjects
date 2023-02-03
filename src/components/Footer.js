@@ -16,7 +16,7 @@ const Footer = () => {
                         justifyContent: 'center'
                     }}>
                         <Typography>Copyright: <a href='https://github.com/elizzaveta'>elizavetta</a></Typography>
-                        <Typography>2022</Typography>
+                        <Typography>2023</Typography>
                     </Box>
 
                 </Container>

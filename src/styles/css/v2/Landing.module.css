@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    gap: 20px;
+    z-index: 100;
+}
+.projectsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.stackWrapper{
+    width: 255px;
+}
+@media (min-width: 1600px) {
+    .wrapper{
+        padding: 40px 300px;
+    }
+
+}
+@media (max-width: 1600px) {
+    .wrapper{
+        padding: 40px 200px;
+    }
+
+}
+@media (max-width: 1400px) {
+    .wrapper{
+        padding: 40px 80px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .wrapper{
+        padding: 40px 40px;
+    }
+
+}
+@media (max-width: 800px) {
+    .wrapper{
+        padding: 40px 5px;
+    }
+
+}

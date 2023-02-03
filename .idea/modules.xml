@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../resume-pet-projects.iml" filepath="$PROJECT_DIR$/../resume-pet-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CV_PetProjects.iml" filepath="$PROJECT_DIR$/.idea/CV_PetProjects.iml" />
     </modules>
   </component>
 </project>
