@@ -1,6 +1,6 @@
 import React from 'react';
 import {Typography} from "@mui/material";
-import styles from "../../styles/css/v2/TagTemplate.module.css"
+import styles from "../styles/css/TagTemplate.module.css"
 
 const TagTemplate = (props) => {
     const {title} = props;

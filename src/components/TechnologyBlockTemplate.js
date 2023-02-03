@@ -1,7 +1,7 @@
 import React from 'react';
 import TechnologyTitle from "./TechnologyTitle";
 import ProjectsGrid from "./ProjectsGrid";
-import styles from "../../styles/css/v2/TechnologyBlockTemplate.module.css"
+import styles from "../styles/css/TechnologyBlockTemplate.module.css"
 
 const TechnologyBlockTemplate = (props) => {
     const {technologyName, projects} = props;

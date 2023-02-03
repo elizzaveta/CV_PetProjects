@@ -17,7 +17,7 @@ export const ProjectInfoV2 = [
                 website: 'https://sea-creatures.vercel.app/',
                 sourceCode: 'https://github.com/elizzaveta/SeaCreatures',
                 description: 'Page with engaging parallax effects. It contains several blocks with animal picture and it`s description.',
-                tags: ['React.js', 'CSS modules', 'react-parallax']
+                tags: ['React.js', 'CSS modules', 'Parallax']
             },
             {
                 name: 'Online Dictionary',

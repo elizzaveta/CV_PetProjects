@@ -1,10 +1,10 @@
 import React from 'react';
 import TechnologyBlockTemplate from "./TechnologyBlockTemplate";
-import {ProjectInfoV2} from "../../utils/ProjectInfoV2"
-import styles from "../../styles/css/v2/Landing.module.css"
-import {theme} from "../../styles/Theme";
+import {ProjectInfoV2} from "../utils/ProjectInfoV2"
+import styles from "../styles/css/Landing.module.css"
+import {theme} from "../styles/Theme";
 import {ThemeProvider} from "@mui/material";
-import Greeting from "../Greeting";
+import Greeting from "./Greeting";
 import {ScrollContainer} from "react-scroll-motion";
 import TechnologyStackBlock from "./TechnologyStackBlock";
 

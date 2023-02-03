@@ -1,6 +1,6 @@
 import React from 'react';
 import {Typography} from "@mui/material";
-import styles from "../../styles/css/v2/OneTechnology.module.css"
+import styles from "../styles/css/OneTechnology.module.css"
 
 const OneTechnology = (props) => {
     const {name, icon} = props;

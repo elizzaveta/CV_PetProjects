@@ -1,8 +1,8 @@
 import React from 'react';
 import {Typography} from "@mui/material";
-import {images} from "../../utils/Images";
+import {images} from "../utils/Images";
 import OneTechnology from "./OneTechnology";
-import styles from "../../styles/css/v2/TechnologyStackBlock.module.css"
+import styles from "../styles/css/TechnologyStackBlock.module.css"
 
 const TechnologyStackBlock = () => {
     return (
