@@ -30,18 +30,6 @@ export const ProjectInfoV2 = [
         ]
     },
     {
-        technology: "Figma",
-        projects: [
-            {
-                name: 'YourPlant Design',
-                mockupImage: figmaMockup,
-                website: 'https://www.figma.com/file/NZcndvjm33h9uVCbIl8Hf4/YourPlant?t=eloNvlwGmlccLckk-0',
-                description: 'Figma design of YourPlant site. Responsive layout (Desktop, tablet, mobile).'
-                , tags: ['Figma', 'Responsive layout']
-            }
-        ]
-    },
-    {
         technology: "Vue.js",
         projects: [
             {
@@ -51,6 +39,18 @@ export const ProjectInfoV2 = [
                 sourceCode: 'https://github.com/elizzaveta/ActivityGererator',
                 description: 'Website for those who are bored. Generates activities and allows to save favorite ones.',
                 tags: ['Vue.js', 'Vite', 'LocalStorage', 'public API']
+            }
+        ]
+    },
+    {
+        technology: "Figma",
+        projects: [
+            {
+                name: 'YourPlant Design',
+                mockupImage: figmaMockup,
+                website: 'https://www.figma.com/file/NZcndvjm33h9uVCbIl8Hf4/YourPlant?t=eloNvlwGmlccLckk-0',
+                description: 'Figma design of YourPlant site. Responsive layout (Desktop, tablet, mobile).'
+                , tags: ['Figma', 'Responsive layout']
             }
         ]
     },
