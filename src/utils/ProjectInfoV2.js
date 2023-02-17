@@ -6,18 +6,19 @@ import yourPlantMockup from '../images/Your Plant Mockup.png'
 import sushiSiteMockup from '../images/Sushi Site Mockup.png'
 import seaCreaturesMockup from '../images/Sea Creatures Mockup.png'
 import figmaMockup from '../images/Figma Mockup.png'
+import landingStudyMockup from "../images/LandingStudyMockup.png"
 
 export const ProjectInfoV2 = [
     {
         technology: "React.js",
         projects: [
             {
-                name: 'Sea Creatures',
-                mockupImage: seaCreaturesMockup,
-                website: 'https://sea-creatures.vercel.app/',
-                sourceCode: 'https://github.com/elizzaveta/SeaCreatures',
-                description: 'Page with engaging parallax effects. It contains several blocks with animal picture and it`s description.',
-                tags: ['React.js', 'CSS modules', 'Parallax']
+                name: 'Landing Study',
+                mockupImage: landingStudyMockup,
+                website: 'https://landing-study-steel.vercel.app/',
+                sourceCode: 'https://github.com/elizzaveta/LandingStudy',
+                description: 'Landing page of Qubly. Created according to free Figma design.',
+                tags: ['React.js', 'Reusable components', 'CSS modules']
             },
             {
                 name: 'Online Dictionary',
@@ -25,7 +26,15 @@ export const ProjectInfoV2 = [
                 website: 'https://online-dictionary.vercel.app/',
                 sourceCode: 'https://github.com/elizzaveta/OnlineDictionary',
                 description: 'A dictionary with English words\' meanings. Some words have player with its\' pronunciation. Search history is saved and can be edited.',
-                tags: ['React.js', 'LocalStorage', 'public API']
+                tags: ['React.js', 'LocalStorage', 'public API', 'Redux']
+            },
+            {
+                name: 'Sea Creatures',
+                mockupImage: seaCreaturesMockup,
+                website: 'https://sea-creatures.vercel.app/',
+                sourceCode: 'https://github.com/elizzaveta/SeaCreatures',
+                description: 'Page with engaging parallax effects. It contains several blocks with animal picture and it`s description.',
+                tags: ['React.js', 'CSS modules', 'Parallax']
             }
         ]
     },
