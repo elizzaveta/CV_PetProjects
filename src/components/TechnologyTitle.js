@@ -5,7 +5,7 @@ import {Typography} from "@mui/material";
 const TechnologyTitle = (props) => {
     const {title} = props;
     return (
-        <div className={styles.titleContainer}>
+        <div id={title + 'TechId'} className={styles.titleContainer}>
             <Typography variant="h2">{title}</Typography>
         </div>
     );

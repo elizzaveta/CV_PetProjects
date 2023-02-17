@@ -1,9 +1,7 @@
 import reactIcon from "../images/icons/reactIcon.png"
 import nodeIcon from "../images/icons/nodeIcon.png"
 import vueIcon from "../images/icons/vueIcon.png"
-import htmlIcon from "../images/icons/htmlIcon.png"
-import cssIcon from "../images/icons/cssIcon.png"
-import jsIcon from "../images/icons/jsIcon.png"
+import htmlCssJsIcon from "../images/icons/htmlCssJsIcon.png"
 import figmaIcon from "../images/icons/figmaIcon.png"
 
 import telegramIcon from "../images/icons/telegramIcon.png"
@@ -12,37 +10,33 @@ import linkedinIcon from "../images/icons/linkedinIcon.png"
 import githubIcon from "../images/icons/githubIcon.png"
 
 
-
 export const images = {
     technologies: [
         {
             name: "ReactJS",
-            icon: reactIcon
+            icon: reactIcon,
+            scrollTo: 'React.jsTechId'
 
         },
         {
-            name: "NodeJS",
-            icon: nodeIcon
-        },
-        {
             name: "VueJS",
-            icon: vueIcon
+            icon: vueIcon,
+            scrollTo: 'Vue.jsTechId'
         },
         {
-            name: "HTML",
-            icon: htmlIcon
+            name: "NodeJS",
+            icon: nodeIcon,
+            scrollTo: 'Node.jsTechId'
         },
         {
-            name: "CSS",
-            icon: cssIcon
-        },
-        {
-            name: "JavaScript",
-            icon: jsIcon
+            name: "HTML, CSS, JS",
+            icon: htmlCssJsIcon,
+            scrollTo: "HTML + CSSTechId"
         },
         {
             name: "Figma",
-            icon: figmaIcon
+            icon: figmaIcon,
+            scrollTo: "FigmaTechId"
         }
     ],
     footerIcons:{
