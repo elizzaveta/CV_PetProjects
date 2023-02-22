@@ -3,5 +3,6 @@
     flex-direction: column;
     gap: 20px;
     position: sticky;
+    position: -webkit-sticky;
     top: 20px;
 }

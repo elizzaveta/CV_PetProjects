@@ -1,16 +1,22 @@
 .wrapper{
     display: flex;
+    /*flex-wrap: wrap;*/
     gap: 20px;
     z-index: 100;
+}
+@media (max-width: 510px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+
 }
 .projectsWrapper{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
 }
 .stackWrapper{
-    width: 255px;
+    /*width: 255px;*/
 }
 @media (min-width: 1600px) {
     .wrapper{

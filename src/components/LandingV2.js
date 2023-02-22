@@ -20,10 +20,13 @@ const LandingV2 = () => {
                     <div className={styles.stackWrapper}>
                         <TechnologyStackBlock/>
                     </div>
-                    <div className={styles.projectsWrapper}>
-                        {ProjectInfoV2.map((projects) =>
-                            <TechnologyBlockTemplate technologyName={projects.technology} projects={projects.projects}/>
-                        )}
+                    <div>
+                        <div className={styles.projectsWrapper}>
+                            {ProjectInfoV2.map((projects) =>
+                                <TechnologyBlockTemplate technologyName={projects.technology} projects={projects.projects}/>
+                            )}
+                        </div>
+
                     </div>
                 </div>
             </ScrollContainer>

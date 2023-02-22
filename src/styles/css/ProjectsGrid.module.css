@@ -20,10 +20,10 @@
 }
 .greenBorderContainer{
     border: 1px solid green;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 .descriptionContainer{
-    padding: 4px;
+    padding: 5px;
 }
 .tagsContainer{
     display: flex;

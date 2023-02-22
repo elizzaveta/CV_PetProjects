@@ -7,11 +7,20 @@ import sushiSiteMockup from '../images/Sushi Site Mockup.png'
 import seaCreaturesMockup from '../images/Sea Creatures Mockup.png'
 import figmaMockup from '../images/Figma Mockup.png'
 import landingStudyMockup from "../images/LandingStudyMockup.png"
+import rickAndMortyMockup from "../images/RickAndMortyMockput.png"
 
 export const ProjectInfoV2 = [
     {
         technology: "React.js",
         projects: [
+            {
+                name: 'Rick & Morty Characters Library',
+                mockupImage: rickAndMortyMockup,
+                website: 'https://rick-and-morty-ts-ten.vercel.app/',
+                sourceCode: 'https://github.com/elizzaveta/RickAndMorty_TS',
+                description: 'Library of all the characters from the "Rick and Morty" television show.',
+                tags: ['React.js', 'TypeScript', 'CSS modules', 'public API']
+            },
             {
                 name: 'Landing Study',
                 mockupImage: landingStudyMockup,
