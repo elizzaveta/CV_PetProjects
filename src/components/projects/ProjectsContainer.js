@@ -36,7 +36,7 @@ const ProjectsContainer = (props) => {
                         </div>
 
                     </div>
-                    <a href={project.website} target="_blank"><img className={styles.mockup} src={project.mockupImage} alt={`${project.name} mockup image`}/></a>
+                    <a href={project.website} target="_blank" className={styles.image}><img className={styles.mockup} src={project.mockupImage} alt={`${project.name} mockup image`}/></a>
                 </div>
             )}
         </div>
