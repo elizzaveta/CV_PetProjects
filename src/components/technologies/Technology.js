@@ -1,8 +1,8 @@
 import React from 'react';
 import {Typography} from "@mui/material";
-import styles from "../styles/css/OneTechnology.module.css"
+import styles from "../../styles/css/technologies/Technology.module.css"
 
-const OneTechnology = (props) => {
+const Technology = (props) => {
     const {name, icon, scrollTo} = props;
 
     const handleClick = ()=>{
@@ -17,4 +17,4 @@ const OneTechnology = (props) => {
     );
 };
 
-export default OneTechnology;
+export default Technology;

@@ -4,9 +4,9 @@ import {Box, ThemeProvider, Typography} from "@mui/material";
 import {theme} from "../styles/Theme";
 import {FadeUp} from "../animations/ReactScrollMotion";
 import {Container} from "@material-ui/core";
-import styles from "../styles/css/Greeting.module.css"
+import styles from "../styles/css/Hero.module.css"
 
-const Greeting = () => {
+const Hero = () => {
     return (
         <ThemeProvider theme={theme}>
             <div className={styles.wrapper}>
@@ -30,4 +30,4 @@ const Greeting = () => {
     );
 };
 
-export default Greeting;
+export default Hero;

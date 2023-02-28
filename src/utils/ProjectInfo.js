@@ -9,7 +9,7 @@ import figmaMockup from '../images/Figma Mockup.png'
 import landingStudyMockup from "../images/LandingStudyMockup.png"
 import rickAndMortyMockup from "../images/RickAndMortyMockput.png"
 
-export const ProjectInfoV2 = [
+export const ProjectInfo = [
     {
         technology: "React.js",
         projects: [

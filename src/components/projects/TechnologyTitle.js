@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../styles/css/TechnologyTitle.module.css"
+import styles from "../../styles/css/projects/TechnologyTitle.module.css"
 import {Typography} from "@mui/material";
 
 const TechnologyTitle = (props) => {

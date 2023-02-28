@@ -10,11 +10,7 @@
     }
 
 }
-.projectsWrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 .stackWrapper{
     /*width: 255px;*/
 }

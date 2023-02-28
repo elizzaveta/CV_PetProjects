@@ -1,12 +1,12 @@
 import React from 'react';
 import {Typography} from "@mui/material";
-import styles from "../styles/css/ProjectsGrid.module.css"
-import TagTemplate from "./TagTemplate";
-import linkIcon from "../images/icons/linkIcon.png";
-import githubIcon from "../images/icons/githubIcon.png";
-import LinkIcon from "./LinkIcon";
+import styles from "../../styles/css/projects/ProjectsContainer.module.css"
+import TagTemplate from "../TagTemplate";
+import linkIcon from "../../images/icons/linkIcon.png";
+import githubIcon from "../../images/icons/githubIcon.png";
+import LinkIcon from "../LinkIcon";
 
-const ProjectsGrid = (props) => {
+const ProjectsContainer = (props) => {
     const {projects} = props;
     return (
         <div className={styles.wrapper}>
@@ -42,4 +42,4 @@ const ProjectsGrid = (props) => {
     );
 };
 
-export default ProjectsGrid;
+export default ProjectsContainer;

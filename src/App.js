@@ -1,12 +1,12 @@
 import {BrowserRouter} from "react-router-dom";
 import Footer from "./components/Footer";
 import "./styles/css/colors.css"
-import LandingV2 from "./components/LandingV2";
+import Landing from "./components/Landing";
 
 function App() {
   return (
       <BrowserRouter>
-        <LandingV2/>
+        <Landing/>
           <Footer/>
       </BrowserRouter>
   );
