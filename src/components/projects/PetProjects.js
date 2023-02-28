@@ -8,7 +8,7 @@ const PetProjects = () => {
     return (
         <div className={styles.projectsWrapper}>
             {ProjectInfo.map((projects) =>
-                <div className={styles.wrapper}>
+                <div className={styles.wrapper} key={projects.id+''}>
                     <TechnologyTitle title={projects.technology}/>
                     <ProjectsContainer projects={projects.projects}/>
                 </div>

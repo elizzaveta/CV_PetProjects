@@ -9,7 +9,7 @@ const TechStack = () => {
         <div className={styles.wrapper}>
             <Typography variant="h2" fontWeight="bold">Technologies</Typography>
             {images.technologies.map((technology)=>
-                <Technology name={technology.name} icon={technology.icon} scrollTo={technology.scrollTo}/>
+                <Technology name={technology.name} icon={technology.icon} scrollTo={technology.scrollTo} key={technology.id}/>
             )}
         </div>
     );

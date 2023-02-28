@@ -11,9 +11,6 @@
 
 }
 
-.stackWrapper{
-    /*width: 255px;*/
-}
 @media (min-width: 1600px) {
     .wrapper{
         padding: 40px 300px;

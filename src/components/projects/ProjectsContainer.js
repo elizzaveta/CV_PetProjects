@@ -11,17 +11,15 @@ const ProjectsContainer = (props) => {
     return (
         <div className={styles.wrapper}>
             {projects.map((project)=>
-                <div id="projectCard" className={`${styles.itemWrapper} ${styles.greenBorderContainer}`}>
+                <div id="projectCard" key={project.id} className={`${styles.itemWrapper} ${styles.greenBorderContainer}`}>
                     <div className={styles.innerWrapper}>
                         <Typography fontWeight={"bold"}>{project.name}</Typography>
                         <div className={styles.linksContainer}>
-                            {project.website?
+                            {project.website &&
                                 <LinkIcon image={linkIcon} linkTo={project.website}/>
-                                : null
                             }
-                            {project.sourceCode?
+                            {project.sourceCode &&
                                 <LinkIcon image={githubIcon} linkTo={project.sourceCode}/>
-                                : null
                             }
                         </div>
                     </div>
@@ -30,8 +28,8 @@ const ProjectsContainer = (props) => {
                             {project.description}
                         </Typography>
                         <div className={styles.tagsContainer}>
-                            {project.tags?.map((tag)=>
-                                <TagTemplate title={tag}/>
+                            {project.tags?.map((tag, index)=>
+                                <TagTemplate title={tag} key={index}/>
                             )}
                         </div>
                     </div>

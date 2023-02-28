@@ -32,7 +32,7 @@ const Footer = () => {
                                 justifyContent: 'space-around'
                             }}>
                                 {images.footerIcons.contact.map((iconData)=>
-                                    <LinkIcon image={iconData.icon} linkTo={iconData.link}/>
+                                    <LinkIcon image={iconData.icon} linkTo={iconData.link} key={iconData.id}/>
                                 )}
                             </Box>
 

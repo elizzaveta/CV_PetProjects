@@ -16,13 +16,8 @@ const Landing = () => {
             <ScrollContainer>
                 <Hero/>
                 <div className={styles.wrapper}>
-                    <div className={styles.stackWrapper}>
-                        <TechStack/>
-                    </div>
-                    <div>
-                        <PetProjects/>
-
-                    </div>
+                    <TechStack/>
+                    <PetProjects/>
                 </div>
             </ScrollContainer>
         </ThemeProvider>
