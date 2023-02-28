@@ -14,7 +14,8 @@ const Footer = () => {
                         padding: '50px 0px 20px 0px',
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'space-around'
+                        justifyContent: 'space-around',
+                        flexWrap: 'wrap'
                     }}>
                         <Box sx={{
                             padding: '5px 0px 0px 0px',

@@ -12,26 +12,29 @@ const ProjectsContainer = (props) => {
         <div className={styles.wrapper}>
             {projects.map((project)=>
                 <div id="projectCard" key={project.id} className={`${styles.itemWrapper} ${styles.greenBorderContainer}`}>
-                    <div className={styles.innerWrapper}>
-                        <Typography fontWeight={"bold"}>{project.name}</Typography>
-                        <div className={styles.linksContainer}>
-                            {project.website &&
-                                <LinkIcon image={linkIcon} linkTo={project.website}/>
-                            }
-                            {project.sourceCode &&
-                                <LinkIcon image={githubIcon} linkTo={project.sourceCode}/>
-                            }
+                    <div>
+                        <div className={styles.innerWrapper}>
+                            <Typography fontWeight={"bold"}>{project.name}</Typography>
+                            <div className={styles.linksContainer}>
+                                {project.website &&
+                                    <LinkIcon image={linkIcon} linkTo={project.website}/>
+                                }
+                                {project.sourceCode &&
+                                    <LinkIcon image={githubIcon} linkTo={project.sourceCode}/>
+                                }
+                            </div>
                         </div>
-                    </div>
-                    <div className={styles.gap10px}>
-                        <Typography className={`${styles.greenBorderContainer} ${styles.descriptionContainer}`}>
-                            {project.description}
-                        </Typography>
-                        <div className={styles.tagsContainer}>
-                            {project.tags?.map((tag, index)=>
-                                <TagTemplate title={tag} key={index}/>
-                            )}
+                        <div className={styles.gap10px}>
+                            <Typography className={`${styles.greenBorderContainer} ${styles.descriptionContainer}`}>
+                                {project.description}
+                            </Typography>
+                            <div className={styles.tagsContainer}>
+                                {project.tags?.map((tag, index)=>
+                                    <TagTemplate title={tag} key={index}/>
+                                )}
+                            </div>
                         </div>
+
                     </div>
                     <a href={project.website} target="_blank"><img className={styles.mockup} src={project.mockupImage} alt={`${project.name} mockup image`}/></a>
                 </div>

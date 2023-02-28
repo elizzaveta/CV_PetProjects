@@ -38,7 +38,7 @@ export const ProjectInfo = [
                 mockupImage: onlineDictionaryMockup,
                 website: 'https://online-dictionary.vercel.app/',
                 sourceCode: 'https://github.com/elizzaveta/OnlineDictionary',
-                description: 'A dictionary with English words\' meanings. Some words have player with its\' pronunciation. Search history is saved and can be edited.',
+                description: 'A dictionary with English words\' meanings. Some words have player with its\' pronunciation.',
                 tags: ['React.js', 'LocalStorage', 'public API', 'Redux']
             },
             {
