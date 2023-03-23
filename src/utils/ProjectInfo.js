@@ -8,6 +8,7 @@ import seaCreaturesMockup from '../images/Sea Creatures Mockup.png'
 import figmaMockup from '../images/Figma Mockup.png'
 import landingStudyMockup from "../images/LandingStudyMockup.png"
 import rickAndMortyMockup from "../images/RickAndMortyMockput.png"
+import typerMockup from "../images/TyperMockup.png"
 
 export const ProjectInfo = [
     {
@@ -16,6 +17,15 @@ export const ProjectInfo = [
         projects: [
             {
                 id:1,
+                name: 'Touch Typing',
+                mockupImage: typerMockup,
+                website: 'https://touch-typing-elizzaveta.vercel.app/',
+                sourceCode: 'https://github.com/elizzaveta/TouchTyping',
+                description: 'Touch Typing practice website. You can check your typing speed here.',
+                tags: ['Next.js','React.js', 'TypeScript', 'CSS modules', 'public API']
+            },
+            {
+                id:2,
                 name: 'Rick & Morty Characters Library',
                 mockupImage: rickAndMortyMockup,
                 website: 'https://rick-and-morty-ts-ten.vercel.app/',
@@ -24,7 +34,7 @@ export const ProjectInfo = [
                 tags: ['React.js', 'TypeScript', 'CSS modules', 'public API']
             },
             {
-                id:2,
+                id:3,
                 name: 'Landing Study',
                 mockupImage: landingStudyMockup,
                 website: 'https://landing-study-steel.vercel.app/',
@@ -33,7 +43,7 @@ export const ProjectInfo = [
                 tags: ['React.js', 'Reusable components', 'CSS modules']
             },
             {
-                id:3,
+                id:4,
                 name: 'Online Dictionary',
                 mockupImage: onlineDictionaryMockup,
                 website: 'https://online-dictionary.vercel.app/',
@@ -42,7 +52,7 @@ export const ProjectInfo = [
                 tags: ['React.js', 'LocalStorage', 'public API', 'Redux']
             },
             {
-                id:4,
+                id:5,
                 name: 'Sea Creatures',
                 mockupImage: seaCreaturesMockup,
                 website: 'https://sea-creatures.vercel.app/',
@@ -57,7 +67,7 @@ export const ProjectInfo = [
         technology: "Vue.js",
         projects: [
             {
-                id:5,
+                id:6,
                 name: 'Bored',
                 mockupImage: boredMockup,
                 website: 'https://activity-gererator.vercel.app/',
@@ -72,7 +82,7 @@ export const ProjectInfo = [
         technology: "Figma",
         projects: [
             {
-                id:6,
+                id:7,
                 name: 'YourPlant Design',
                 mockupImage: figmaMockup,
                 website: 'https://www.figma.com/file/NZcndvjm33h9uVCbIl8Hf4/YourPlant?t=eloNvlwGmlccLckk-0',
@@ -86,7 +96,7 @@ export const ProjectInfo = [
         technology: "Node.js",
         projects: [
             {
-                id:7,
+                id:8,
                 name: 'All About Dogs',
                 mockupImage: allAboutDogsMockup,
                 sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
@@ -101,7 +111,7 @@ export const ProjectInfo = [
         technology: "HTML + CSS",
         projects: [
             {
-                id:8,
+                id:9,
                 name: 'Your Plant',
                 mockupImage: yourPlantMockup,
                 website: 'https://elizzaveta.github.io/YourPlant-site/',
@@ -116,7 +126,7 @@ export const ProjectInfo = [
         technology: "HTML + CSS + JS",
         projects: [
             {
-                id:9,
+                id:10,
                 name: 'My Notes',
                 mockupImage: myNotesMockup,
                 website: 'https://elizzaveta.github.io/My_notes',
@@ -124,16 +134,6 @@ export const ProjectInfo = [
                 technologies: 'HTML + CSS + JS simple web app using Local Storage.',
                 description: 'Simple note taking app.',
                 tags: ['HTML', 'CSS', 'JS', 'LocalStorage']
-            },
-            {
-                id:10,
-                name: 'Sushi Site',
-                mockupImage: sushiSiteMockup,
-                website: 'https://elizzaveta.github.io/Sushi-site/',
-                sourceCode: 'https://github.com/elizzaveta/Sushi-site',
-                technologies: 'HTML + CSS + JS app. Product information is fetched from JSON API (Typicode Json Server).',
-                description: 'Site where you can choose and order sushi.',
-                tags: ['HTML', 'CSS', 'JS']
             }
         ]
     }
