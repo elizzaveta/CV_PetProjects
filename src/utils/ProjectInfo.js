@@ -3,12 +3,12 @@ import boredMockup from '../images/Bored Mockup.png'
 import onlineDictionaryMockup from '../images/Online Dictionary Mockup.png'
 import myNotesMockup from '../images/My Notes Mockup.png'
 import yourPlantMockup from '../images/Your Plant Mockup.png'
-import sushiSiteMockup from '../images/Sushi Site Mockup.png'
 import seaCreaturesMockup from '../images/Sea Creatures Mockup.png'
 import figmaMockup from '../images/Figma Mockup.png'
 import landingStudyMockup from "../images/LandingStudyMockup.png"
 import rickAndMortyMockup from "../images/RickAndMortyMockput.png"
 import typerMockup from "../images/TyperMockup.png"
+import sportClubMockup from '../images/SportclubMockup.png'
 
 export const ProjectInfo = [
     {
@@ -79,6 +79,30 @@ export const ProjectInfo = [
     },
     {
         id:3,
+        technology: "Node.js",
+        projects: [
+            {
+                id:8,
+                name: 'All About Dogs',
+                mockupImage: allAboutDogsMockup,
+                sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
+                technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
+                description: 'Website to help dog owners take care of their little friends. It contains information about different dog breeds and their characteristics. ',
+                tags: ['Node.js', 'Express.js', 'PostgreSQL', 'CRUD']
+            },
+            {
+                id:9,
+                name: 'Sport Club',
+                mockupImage: sportClubMockup,
+                sourceCode: 'https://github.com/elizzaveta/sportclub-backend',
+                technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
+                description: 'App for a sport club. Features bonus visit-oriented program, authentication, CRUD operations for different entities.',
+                tags: ['Node.js', 'Nest.js', 'PostgreSQL', 'TypeScript', 'TypeORM', 'CRUD', 'Auth']
+            }
+        ]
+    },
+    {
+        id:4,
         technology: "Figma",
         projects: [
             {
@@ -92,26 +116,11 @@ export const ProjectInfo = [
         ]
     },
     {
-        id:3,
-        technology: "Node.js",
-        projects: [
-            {
-                id:8,
-                name: 'All About Dogs',
-                mockupImage: allAboutDogsMockup,
-                sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
-                technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
-                description: 'Website to help dog owners take care of their little friends. It contains information about different dog breeds and their characteristics. ',
-                tags: ['Node.js', 'Express.js', 'PostgreSQL', 'CRUD']
-            }
-        ]
-    },
-    {
-        id:4,
+        id:5,
         technology: "HTML + CSS",
         projects: [
             {
-                id:9,
+                id:10,
                 name: 'Your Plant',
                 mockupImage: yourPlantMockup,
                 website: 'https://elizzaveta.github.io/YourPlant-site/',
@@ -126,7 +135,7 @@ export const ProjectInfo = [
         technology: "HTML + CSS + JS",
         projects: [
             {
-                id:10,
+                id:11,
                 name: 'My Notes',
                 mockupImage: myNotesMockup,
                 website: 'https://elizzaveta.github.io/My_notes',

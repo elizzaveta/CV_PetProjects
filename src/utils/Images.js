@@ -32,16 +32,16 @@ export const images = {
             scrollTo: 'Node.jsTechId'
         },
         {
-            id:4,
-            name: "HTML, CSS, JS",
-            icon: htmlCssJsIcon,
-            scrollTo: "HTML + CSSTechId"
-        },
-        {
             id:5,
             name: "Figma",
             icon: figmaIcon,
             scrollTo: "FigmaTechId"
+        },
+        {
+            id:4,
+            name: "HTML, CSS, JS",
+            icon: htmlCssJsIcon,
+            scrollTo: "HTML + CSSTechId"
         }
     ],
     footerIcons:{
