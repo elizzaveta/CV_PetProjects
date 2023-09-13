@@ -83,21 +83,21 @@ export const ProjectInfo = [
         projects: [
             {
                 id:8,
-                name: 'All About Dogs',
-                mockupImage: allAboutDogsMockup,
-                sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
-                technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
-                description: 'Website to help dog owners take care of their little friends. It contains information about different dog breeds and their characteristics. ',
-                tags: ['Node.js', 'Express.js', 'PostgreSQL', 'CRUD']
-            },
-            {
-                id:9,
                 name: 'Sport Club',
                 mockupImage: sportClubMockup,
                 sourceCode: 'https://github.com/elizzaveta/sportclub-backend',
                 technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
                 description: 'App for a sport club. Features bonus visit-oriented program, authentication, CRUD operations for different entities.',
                 tags: ['Node.js', 'Nest.js', 'PostgreSQL', 'TypeScript', 'TypeORM', 'CRUD', 'Auth']
+            },
+            {
+                id:9,
+                name: 'All About Dogs',
+                mockupImage: allAboutDogsMockup,
+                sourceCode: 'https://github.com/elizzaveta/AllAboutDogs',
+                technologies: '[Project is still in progress] PERN (Postgres + Express + React.JS + Node.JS) stack application. Styles are added with use of Material UI.',
+                description: 'Website to help dog owners take care of their little friends. It contains information about different dog breeds and their characteristics. ',
+                tags: ['Node.js', 'Express.js', 'PostgreSQL', 'CRUD']
             }
         ]
     },
